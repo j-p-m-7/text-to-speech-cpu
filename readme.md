@@ -4,23 +4,13 @@
 
 Local text to speech program built with piper-tts, onnxruntime, and pyperclip
 
-```
-"pyperclip==1.9.0",
-"onnxruntime==1.22.0",
-
-```
-
-
-
 ### Sample usage
 
 ```bash
-$ docker-pretty-ps
+$ text-to-speech-cpu
 ```
 
-<img src="https://raw.githubusercontent.com/j-p-m-7/docker-pretty-ps/refs/heads/main/img.png" alt="Logo" width="600"/>
-
-
-### Credits
-
-Fork of [docker-pretty-ps](https://github.com/politeauthority/docker-pretty-ps/)
+<video width="600" controls>
+  <source src="https://github.com/j-p-m-7/text-to-speech-cpu/raw/refs/heads/main/sample.mov" type="video/mov">
+  Your browser does not support the video tag.
+</video>
