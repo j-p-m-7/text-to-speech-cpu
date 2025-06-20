@@ -6,7 +6,7 @@ Local text to speech program built with piper-tts, onnxruntime, and pyperclip
 
 ---
 
-### Sample usage
+### Sample Usage
 
 ```bash
 $ text-to-speech-cpu
@@ -16,7 +16,7 @@ The corresponding output, based on the sample.txt file, is available in the outp
 
 ---
 
-**Transcript:**
+### Transcript
 
 The *FitnessGram™ Pacer Test* is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly, but gets faster each minute after you hear this signal. **[beep]**
 
