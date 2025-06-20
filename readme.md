@@ -2,7 +2,7 @@
 
 ### Description
 
-Local text to speech program built with piper-tts, onnxruntime, and pyperclip
+Local text to speech program built with piper-tts, onnxruntime, and pyperclip. It specifically utilizes the CPU since some machines may lack an integrated GPU.
 
 ---
 
