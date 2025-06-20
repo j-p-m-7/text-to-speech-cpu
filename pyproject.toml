@@ -1,0 +1,21 @@
+[project]
+name = "text-to-speech-cpu"
+version = "0.1.0"
+description = "text to speech -- cpu utlization"
+readme = "README.md"
+authors = [
+    { name = "jpm7", email = "jpm7@jpm7.org" }
+]
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pyperclip==1.9.0",
+    "onnxruntime==1.22.0",
+]
+
+[project.scripts]
+text-to-speech-cpu = "text_to_speech_cpu:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
