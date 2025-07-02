@@ -32,27 +32,27 @@ def ensure_model_files():
 
 
 
-def install_deps(script_dir):
-    # define the file path
-    file_path = ".venv/bin/piper"
-    piper_installed = str(script_dir) + "/" + file_path
+# def install_deps(script_dir):
+#     # define the file path
+#     file_path = ".venv/bin/piper"
+#     piper_installed = str(script_dir) + "/" + file_path
 
-    # check if the file exists and is a file (not a directory)
-    if not os.path.isfile(piper_installed):
-        subprocess.run(
-            [
-                "uv",
-                "pip",
-                "install",
-                "--no-deps",
-                "piper-tts",
-                "piper-phonemize-cross",
-                "onnxruntime",
-                "numpy",
-            ],
-            cwd=script_dir,
-            check=True,
-        )
+#     # check if the file exists and is a file (not a directory)
+#     if not os.path.isfile(piper_installed):
+#         subprocess.run(
+#             [
+#                 "uv",
+#                 "pip",
+#                 "install",
+#                 "--no-deps",
+#                 "piper-tts",
+#                 "piper-phonemize-cross",
+#                 "onnxruntime",
+#                 "numpy",
+#             ],
+#             cwd=script_dir,
+#             check=True,
+#         )
 
 
 def create_output_path():
