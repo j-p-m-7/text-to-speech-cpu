@@ -160,7 +160,7 @@ def main():
 
     # install piper-voice
     script_dir = str(Path(__file__).resolve().parent)
-    install_deps(script_dir)
+    # install_deps(script_dir)
 
     global PiperVoice
     from piper.voice import PiperVoice
